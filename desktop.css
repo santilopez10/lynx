@@ -1,0 +1,200 @@
+body, html {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#landingDiv {
+    background-image: url("img/bg1-black.png");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#header {
+    padding-top: 60px;
+    color: #E6DDC5;
+    font-size: 50px;
+}
+
+#subText {
+    font-size: 20px;
+    color: white;
+}
+
+.waitlist-button {
+    border: 3px solid #E6DDC5;
+    border-radius: 80px;
+    font-size: 30px;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #E6DDC5;
+    margin: 30px;
+}
+
+.waitlist-button-black {
+    border: 3px solid black;
+    border-radius: 80px;
+    font-size: 30px;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: black;
+    margin: 30px 0;
+    width: 280px;
+    text-align: center;
+}
+
+.scroll-button {
+    border: 3px solid #E6DDC5;
+    border-radius: 80px;
+    font-size: 25px;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #E6DDC5;
+    
+}
+
+#socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+#bg2 {
+    background-image: linear-gradient(to right, #E6DDC5, #968f7b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#text-bg2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    font-size: 40px;
+}
+
+#img-bg2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    gap: 30px;
+}
+
+.image-wrapper1 {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    margin-right: 80px;
+}
+
+.image-wrapper1::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #E6DDC5;
+    transform: rotate(-7deg);
+    z-index: 2;
+}
+
+.image-wrapper1 img {
+    display: block;
+    object-fit: cover;
+    width: 550px;
+    height: 370px;
+    transform: rotate(5deg);
+}
+
+.image-wrapper2 {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    margin-left: 80px;
+}
+
+.image-wrapper2::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #E6DDC5;
+    transform: rotate(1deg);
+    z-index: 2;
+}
+
+.image-wrapper2 img {
+    display: block;
+    max-width: 550px;
+    height: auto;
+    transform: rotate(-3deg);
+}
+
+
+#bg3 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#bg4 {
+    background-image: url("img/blond-girl-stock.jpg");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.filter {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #E6DDC5;
+    font-size: 50px;
+    font-weight: 600;
+}
