@@ -1,12 +1,17 @@
+
+
 body, html {
     height: auto;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-family: quasimoda, sans-serif;
+    font-style: normal;
+    font-weight: 200;
 }
 
 #landingDiv {
-    background-image: url("img/bg1-black.png");
+    background-image: url("img/mobile-bg-black.png");
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -26,6 +31,7 @@ body, html {
     padding: 40px 20px 0px 20px;
     color: #E6DDC5;
     font-size: 30px;
+    font-weight: 100;
     text-align: center;
 }
 
@@ -228,7 +234,7 @@ body, html {
 h1 {
     color: #E6DDC5;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 200;
     text-align: center;
     padding: 40px;
 }

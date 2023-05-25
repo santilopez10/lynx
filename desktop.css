@@ -3,6 +3,9 @@ body, html {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-family: quasimoda, sans-serif;
+    font-style: normal;
+    font-weight: 200;
 }
 
 #landingDiv {
@@ -15,49 +18,68 @@ body, html {
     width: 100%;
     background-size: cover;
     background-position: center;
+    padding-bottom: 1vw;
 }
 
 #header {
-    padding-top: 60px;
+    padding-top: 1vw;
     color: #E6DDC5;
-    font-size: 50px;
+    font-size: 4vw;
+    margin: 1vw 0;
+}
+
+#logoimg {
+    width: 13vw;
+    height: auto;
 }
 
 #subText {
-    font-size: 20px;
+    font-size: 2vw;
     color: white;
 }
 
 .waitlist-button {
-    border: 3px solid #E6DDC5;
+    border: 2px solid #E6DDC5;
     border-radius: 80px;
-    font-size: 30px;
-    padding: 20px 30px;
+    font-size: 2vw;
+    padding: 1vw 2vw;
     text-decoration: none;
     color: #E6DDC5;
     margin: 30px;
 }
 
+.waitlist-button:hover {
+    border: 2px solid white;
+    color: white;
+}
+
 .waitlist-button-black {
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 80px;
-    font-size: 30px;
-    padding: 20px 30px;
+    font-size: 2vw;
+    padding: 1vw 2vw;
     text-decoration: none;
     color: black;
-    margin: 30px 0;
-    width: 280px;
-    text-align: center;
+    margin-top: 1vw;
+}
+
+.waitlist-button-black:hover {
+    border: 2px solid white;
+    color: white;
 }
 
 .scroll-button {
-    border: 3px solid #E6DDC5;
+    border: 2px solid #E6DDC5;
     border-radius: 80px;
-    font-size: 25px;
-    padding: 15px 25px;
+    font-size: 1.5vw;
+    padding: 1vw 2vw;
     text-decoration: none;
     color: #E6DDC5;
-    
+}
+
+.scroll-button:hover {
+    border: 2px solid white;
+    color: white;
 }
 
 #socials {
@@ -65,7 +87,12 @@ body, html {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    margin-top: 30px;
+    margin-top: 3vw;
+}
+
+#socials a img {
+    width: auto;
+    height: 3vw;
 }
 
 #bg2 {
@@ -77,18 +104,20 @@ body, html {
     width: 100%;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 #text-bg2 {
     width: 40%;
     height: 100%;
     display: flex;
-    align-items: left;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     background-size: cover;
     background-position: center;
-    font-size: 40px;
+    font-size: 2vw;
+    padding-right: 4vw;
 }
 
 #img-bg2 {
@@ -107,7 +136,7 @@ body, html {
     display: inline-block;
     margin: 10px;
     position: relative;
-    margin-right: 80px;
+    margin-right: 4vw;
 }
 
 .image-wrapper1::before {
@@ -125,8 +154,8 @@ body, html {
 .image-wrapper1 img {
     display: block;
     object-fit: cover;
-    width: 550px;
-    height: 370px;
+    width: 35vw;
+    height: 22vw;
     transform: rotate(5deg);
 }
 
@@ -134,7 +163,7 @@ body, html {
     display: inline-block;
     margin: 10px;
     position: relative;
-    margin-left: 80px;
+    margin-left: 4vw;
 }
 
 .image-wrapper2::before {
@@ -151,7 +180,7 @@ body, html {
 
 .image-wrapper2 img {
     display: block;
-    max-width: 550px;
+    max-width: 35vw;
     height: auto;
     transform: rotate(-3deg);
 }
@@ -195,7 +224,7 @@ body, html {
 
 h1 {
     color: #E6DDC5;
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: 600;
 }
 
