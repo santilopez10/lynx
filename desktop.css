@@ -46,6 +46,9 @@ body, html {
     text-decoration: none;
     color: #E6DDC5;
     margin: 30px;
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
 }
 
 .waitlist-button:hover {
